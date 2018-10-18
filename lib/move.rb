@@ -10,8 +10,8 @@ end
 
 def input_to_index(number)
   number.to_i
-  number - 1
   return
+  number - 1
 end
 
 def update_array_at_with(array, position, token)
