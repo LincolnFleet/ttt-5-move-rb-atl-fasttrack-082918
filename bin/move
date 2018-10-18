@@ -4,6 +4,7 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 puts "Player, please enter your move with a number between 1 and 9."
 
@@ -11,3 +12,6 @@ input=gets.strip
 input_to_index(user_input)
 
 move(board, input_to_index, token="X")
+puts "Move entered. Next player."
+
+display_board(board)
