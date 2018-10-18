@@ -9,5 +9,6 @@ answer=gets.strip
 new_game(answer)
 
 user_input(gets.strip)
+input_to_index(user_input)
 
 player_move(gets.strip)
