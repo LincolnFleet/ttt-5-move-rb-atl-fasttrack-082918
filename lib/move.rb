@@ -1,3 +1,5 @@
+board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -6,12 +8,16 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# code your input_to_index and move method here!
+def user_input(number)
+  puts "Please select desired cell number between 1 and 9."
+  user_input=gets.strip
+  user_input.to_i
+  return
+end
 
 def input_to_index(number)
-  user_input=gets.strip
   input_to_index=user_input(number)-1
 end
 
-puts user_input(4)
+
 
