@@ -14,8 +14,7 @@ def input_to_index(input)
   return
 end
 
-def move(board, index, token="X")
+def move(position)
   update_array_at_with(board, index, token)
   display_board(board)
-  puts "Move entered."
 end
