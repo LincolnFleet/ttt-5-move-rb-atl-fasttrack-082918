@@ -8,6 +8,7 @@ end
 
 def input_to_index(input)
   input-1
+  return
 end
 
 def move(position)
