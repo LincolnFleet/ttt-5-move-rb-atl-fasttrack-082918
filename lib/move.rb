@@ -14,7 +14,7 @@ def input_to_index(number)
 end
 
 def update_array_at_with(array, position, token)
-  array[position] = token
+  array[position.to_i] = token
 end
 
 def move(array, position, token="X")
