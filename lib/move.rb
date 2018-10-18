@@ -8,14 +8,14 @@ def display_board()
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(user_input)
-  user_input.to_i
-  input_to_index=user_input - 1
+def input_to_index(input)
+  input.to_i
+  index=input - 1
   return
 end
 
-def move(board, input_to_index, token="X")
-  update_array_at_with(board, input_to_index, )
+def move(board, index, token="X")
+  update_array_at_with(board, index, token)
   display_board(board)
   puts "Move entered."
 end
