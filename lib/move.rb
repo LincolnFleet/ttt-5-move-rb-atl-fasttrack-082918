@@ -2,7 +2,9 @@ def new_game(answer)
   answer=gets.strip
   if answer="y"
     user_input(number)
-  else 
+  else puts "Well then f*$^ off!"
+end
+end
 
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
