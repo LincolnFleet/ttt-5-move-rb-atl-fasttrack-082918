@@ -1,3 +1,5 @@
+board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -20,5 +22,3 @@ def move(array, position, token="X")
   return
   display_board(board)
 end
-
-board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
