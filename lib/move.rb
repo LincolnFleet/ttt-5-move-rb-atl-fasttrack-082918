@@ -8,10 +8,10 @@ end
 
 def input_to_index(input)
   index=input-1
-  return
 end
 
 def move(position)
   update_array_at_with(board, [index], token)
   display_board(board)
+  return
 end
