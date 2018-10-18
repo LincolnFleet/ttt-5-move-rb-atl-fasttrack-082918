@@ -7,3 +7,13 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def user_input(number)
+  number.to_i
+end
+
+def input_to_index(number)
+  input_to_index=user_input(number)-1
+end
+
+puts user_input(4)
+
