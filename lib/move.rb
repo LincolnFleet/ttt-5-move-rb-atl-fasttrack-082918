@@ -5,7 +5,9 @@ def new_game(answer)
   else puts "Well then f*$& off!"
     exit!
   end
-enddef display_board()
+end
+
+def display_board()
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
@@ -14,8 +16,6 @@ enddef display_board()
 end
 
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-
 
 def user_input(number)
   user_input.to_i
