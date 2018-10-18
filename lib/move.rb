@@ -26,3 +26,12 @@ def input_to_index(number)
   input_to_index=user_input(number)-1
   return
 end
+
+def move(numchar)
+  update_array_at_with(board, input_to_index, "X")
+  display_board(board)
+  puts "Move entered."
+end
+
+def match_reset(board)
+  update_array_at_with(board, 0, " ")
