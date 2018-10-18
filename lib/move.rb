@@ -10,6 +10,7 @@ end
 
 def input_to_index(user_input)
   user_input.to_i - 1
+  return
 end
 
 def update_array_at_with(array, position, token)
