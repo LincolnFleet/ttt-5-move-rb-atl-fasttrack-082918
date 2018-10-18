@@ -1,5 +1,3 @@
-answer=gets.strip
-
 def new_game(answer)
   if answer=="y"
     user_input(number)
