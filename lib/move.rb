@@ -16,7 +16,6 @@ def display_board(board)
 end
 
 def user_input(number)
-  puts "Please select desired cell number between 1 and 9."
   user_input=gets.strip
   user_input.to_i
   return
