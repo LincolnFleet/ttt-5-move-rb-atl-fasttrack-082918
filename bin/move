@@ -7,4 +7,6 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic-tac-toe. Start a new game?"
 puts "y/n"
 
+answer=gets.strip
+
 new_game(answer)
