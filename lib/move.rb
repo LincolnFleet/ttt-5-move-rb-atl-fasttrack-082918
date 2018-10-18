@@ -1,6 +1,5 @@
 def new_game(answer)
-  if answer=="y"
-    user_input(number)
+  if answer=="y" puts "X goes first."
   else puts "Well then f*$^ off!"
 end
 end
