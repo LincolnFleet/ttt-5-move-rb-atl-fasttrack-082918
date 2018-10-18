@@ -13,6 +13,7 @@ def new_game(answer)
     display_board(board)
     puts "X goes first."
   else puts "Well then f*$^ off!"
+    exit!
   end
 end
 
