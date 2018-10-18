@@ -35,3 +35,12 @@ end
 
 def match_reset(board)
   update_array_at_with(board, 0, " ")
+  update_array_at_with(board, 1, " ")
+  update_array_at_with(board, 2, " ")
+  update_array_at_with(board, 3, " ")
+  update_array_at_with(board, 4, " ")
+  update_array_at_with(board, 5, " ")
+  update_array_at_with(board, 6, " ")
+  update_array_at_with(board, 7, " ")
+  update_array_at_with(board, 8, " ")
+end
