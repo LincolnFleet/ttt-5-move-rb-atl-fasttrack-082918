@@ -9,6 +9,7 @@ display_board(board)
 puts "Player, please enter your move with a number between 1 and 9."
 
 input=gets.to_i
+index=input_to_index
 
 move(board, index, "X")
 puts "Move entered. Next player please enter your move with a number between 1 and 9."
