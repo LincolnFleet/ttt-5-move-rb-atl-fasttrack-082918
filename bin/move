@@ -8,5 +8,6 @@ puts "Welcome to Tic-tac-toe. Start a new game?"
 puts "y/n"
 
 answer=gets.strip
-
 new_game(answer)
+
+puts "Please select desired cell number between 1 and 9."
