@@ -15,15 +15,3 @@ def move(position)
   update_array_at_with(board, [index], token)
   display_board(board)
 end
-
-def board_clear(reset)
-  update_array_at_with(board, [0], reset)
-  update_array_at_with(board, [1], reset)
-  update_array_at_with(board, [2], reset)
-  update_array_at_with(board, [3], reset)
-  update_array_at_with(board, [4], reset)
-  update_array_at_with(board, [5], reset)
-  update_array_at_with(board, [6], reset)
-  update_array_at_with(board, [7], reset)
-  update_array_at_with(board, [8], reset)
-end
