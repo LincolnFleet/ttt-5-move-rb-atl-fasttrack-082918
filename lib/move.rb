@@ -27,20 +27,8 @@ def input_to_index(number)
   return
 end
 
-def move(numchar)
+def move(player_move)
   update_array_at_with(board, input_to_index, "X")
   display_board(board)
   puts "Move entered."
-end
-
-def match_reset(board)
-  update_array_at_with(board, 0, " ")
-  update_array_at_with(board, 1, " ")
-  update_array_at_with(board, 2, " ")
-  update_array_at_with(board, 3, " ")
-  update_array_at_with(board, 4, " ")
-  update_array_at_with(board, 5, " ")
-  update_array_at_with(board, 6, " ")
-  update_array_at_with(board, 7, " ")
-  update_array_at_with(board, 8, " ")
 end
