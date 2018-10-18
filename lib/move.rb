@@ -1,7 +1,7 @@
 def new_game(answer)
   if answer=="y" puts "X goes first."
   else puts "Well then f*$^ off!"
-end
+  end
 end
 
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
