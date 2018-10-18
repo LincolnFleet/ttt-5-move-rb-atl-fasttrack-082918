@@ -7,11 +7,15 @@ def display_board(board)
 end
 
 def input_to_index(number)
-  index=number - 1
+  number - 1
+  return
+end
+
+def update_array_at_with(array, position, token)
+  board[index] = token
 end
 
 def move(array, position, token)
-  update_array_at_with(array, position, token)
   display_board(board)
   return
 end
