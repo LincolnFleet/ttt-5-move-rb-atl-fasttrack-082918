@@ -10,7 +10,7 @@ def input_to_index(number)
   index=number - 1
 end
 
-def move.update_array_at_with(board, index, "X")
+def move.update_array_at_with(array, position, token)
   display_board(board)
   return
 end
