@@ -16,7 +16,6 @@ def display_board(board)
 end
 
 def user_input(number)
-  user_input=gets.strip
   user_input.to_i
   return
 end
