@@ -22,8 +22,8 @@ def user_input(number)
   return
 end
 
-def input_to_index(number)
-  input_to_index=user_input(number)-1
+def input_to_index(user_input)
+  input_to_index=user_input-1
   return
 end
 
