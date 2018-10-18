@@ -1,9 +1,3 @@
-def new_game(answer)
-  if answer=="y" puts "X goes first."
-  else puts "Well then f*$^ off!"
-  end
-end
-
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
@@ -12,6 +6,14 @@ def display_board(board)
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+end
+
+def new_game(answer)
+  if answer=="y"
+    display_board(board)
+    puts "X goes first."
+  else puts "Well then f*$^ off!"
+  end
 end
 
 def user_input(number)
