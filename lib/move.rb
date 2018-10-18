@@ -8,10 +8,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(number)
-  number.to_i
+def input_to_index(user_input)
+  user_input.to_i
   return
-  number - 1
+  user_input - 1
 end
 
 def update_array_at_with(array, position, token)
