@@ -23,8 +23,8 @@ def input_to_index(user_input)
   return
 end
 
-def move(player_move)
-  update_array_at_with(board, input_to_index, "X")
+def move(board, input_to_index, token="X")
+  update_array_at_with(board, input_to_index, )
   display_board(board)
   puts "Move entered."
 end
