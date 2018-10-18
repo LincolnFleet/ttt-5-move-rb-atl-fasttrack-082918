@@ -10,7 +10,7 @@ board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def new_game(answer)
   if answer=="y"
-    display_board[board]
+    .display_board(board)
     puts "X goes first."
   else puts "Well then f*$& off!"
     exit!
