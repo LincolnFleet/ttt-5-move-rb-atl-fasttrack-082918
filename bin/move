@@ -11,4 +11,4 @@ new_game(answer)
 user_input=gets.strip
 input_to_index(user_input)
 
-player_move(gets.strip)
+move(board, input_to_index, token="X")
