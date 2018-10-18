@@ -17,12 +17,8 @@ def display_board()
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def user_input(number)
-  user_input.to_i
-  return
-end
-
 def input_to_index(user_input)
+  user_input.to_i
   input_to_index=user_input-1
   return
 end
