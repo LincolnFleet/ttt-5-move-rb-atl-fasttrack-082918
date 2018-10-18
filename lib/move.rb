@@ -15,8 +15,8 @@ def update_array_at_with(array, position, token)
   board[index] = token
 end
 
-def move
-  update_array_at_with(board, index, token="X")
+def move(array, position, token="X")
+  update_array_at_with(board, index, token)
   return
   display_board(board)
 end
