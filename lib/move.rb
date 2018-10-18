@@ -9,7 +9,6 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input.to_i
   index=input-1
   return
 end
