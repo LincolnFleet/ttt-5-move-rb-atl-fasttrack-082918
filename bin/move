@@ -11,7 +11,7 @@ puts "Player, please enter your move with a number between 1 and 9."
 input=gets.to_i.strip
 input_to_index(input)
 
-move(board, input_to_index, token="X")
+move(board, index, token="X")
 puts "Move entered. Next player."
 
 display_board(board)
