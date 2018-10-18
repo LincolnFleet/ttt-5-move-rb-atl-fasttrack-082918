@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def move(position)
-  update_array_at_with(board, [index], token)
+  update_array_at_with(board, index, token)
   display_board(board)
   return
 end
