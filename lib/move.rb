@@ -1,3 +1,9 @@
+def new_game(answer)
+  answer=gets.strip
+  if answer="y"
+    user_input(number)
+  else 
+
 board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
