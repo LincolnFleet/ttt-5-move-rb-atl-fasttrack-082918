@@ -8,9 +8,7 @@ display_board(board)
 
 puts "Player, please enter your move with a number between 1 and 9."
 
-input_to_index(gets.strip)
-
-move(board, index, "X")
+move(board, input_to_index(gets.strip), "X")
 puts "Move entered. Next player please enter your move with a number between 1 and 9."
 
 display_board(board)
