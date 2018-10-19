@@ -15,10 +15,10 @@ def input_to_index(user_input)
   return
 end
 
-def update_array_at_with(array, position, token)
+def update_array_at_with(array, position, token="X")
   array[position] = token
 end
 
-def move(array, position, token="X")
+def move(array, position, token)
   update_array_at_with(array, position, token)
 end
